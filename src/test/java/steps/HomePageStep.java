@@ -26,7 +26,7 @@ public class HomePageStep extends HomePage {
 
         }
 
-        driver.findElement(By.cssSelector(buttonSearch)).click();
+        driver.findElement(By.xpath(buttonSearch)).click();
 
 
     }
