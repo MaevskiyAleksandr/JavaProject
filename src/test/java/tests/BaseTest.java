@@ -22,6 +22,7 @@ public class BaseTest {
 
     @After
     public void close() {
+        driver.close();
         //driver.quit();
        System.out.println("Test close");
     }
